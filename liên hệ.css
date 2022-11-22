@@ -1,0 +1,56 @@
+#khoi1{
+    background-color: aqua;
+    width: 1200px;
+    height: auto;
+    padding: 3px;
+    }
+    
+    #menu1{
+        
+        font-size: 15px;
+        margin-top: 10px;
+        display: flex;
+    }
+    #menu1 li{
+        list-style-type: none;
+      padding:10px 50px;
+    
+    }
+    #menu1 li a{
+       color: rgb(83, 25, 158);
+       text-decoration: none;
+       text-transform: uppercase;
+       
+    }
+    #menu2{
+            font-size: 15px;
+            margin-top: 20px;
+            display: flex;
+        }
+        #menu2 li{
+            list-style-type: none;
+          position: relative;
+          padding: 20px;
+        
+         
+        }
+        #menu2 li a{
+           color: rgb(22, 11, 129);
+           text-decoration: none;
+           
+           
+        }
+    #menu2 .menucon1{
+        position: absolute;
+        background-color: rgb(184, 233, 195);
+        width: 140px;
+        padding: 1px 0px;
+        display: none;
+    }
+    #menu2 .menucon1 a{
+        padding: 8px 15px;
+        border-bottom: 1px solid black;
+    }
+    #menu2 li:hover ul.menucon1 {
+        display: block;
+    }
